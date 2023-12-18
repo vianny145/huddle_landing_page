@@ -18,14 +18,14 @@ header {
 }
 
 .icon_huddle{
-    width: 100px;
-    height: 15px;
+    width: 6.25rem;
+    height: 0.9375rem;
 }
 
 .header_option {
     max-height: 2rem;
     border-radius: 0.75rem;
-    padding: 4px 10px;
+    padding: 0.25rem 0.625rem;
     color: hsl(322, 100%, 66%);
     border-color: hsl(322, 100%, 66%);
     background-color: white;
@@ -36,7 +36,7 @@ main{
 }
 
 .intro{
-    max-width: 300px;
+    max-width: 18.75rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,7 +45,7 @@ main{
     text-align: center;
     color: hsl(192, 100%, 9%);
     font-family: poppins;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .intro_def{
@@ -68,7 +68,7 @@ main{
     color: white;
     border: none;
     border-radius: 1rem;
-    padding: 12px 30px;
+    padding: 0.75rem 1.875rem;
     background-color: hsl(322, 100%, 66%) ;
 }
 
@@ -77,7 +77,7 @@ main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
+    max-width: 18.75rem;
 }
 
 .status{
@@ -93,14 +93,14 @@ main{
     display: block;
    position: absolute;
 
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .subscribers{
    box-sizing: border-box;
-   max-width: 300px;
-   ;
+   max-width: 18.75rem;
+   
 }
 
 .number_of_subscribers{
@@ -110,20 +110,20 @@ main{
     align-items: center;
     font-weight: bold;
     font-size: 5rem;
-    margin: 20px 0px;
-    padding-top: 20px;
+    margin: 1.25rem 0rem;
+    padding-top: 1.25rem;
     color: hsl(192, 100%, 9%);
 }
 
 .subscribers_messages{
-    line-height: 4px;
+    line-height: 0.25rem;
 }
 
 .message_icon{
     display: block;
    position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .number_of_messages{
@@ -146,7 +146,7 @@ main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
+    max-width: 18.75rem;
 }
 
 .growth_heading{
@@ -176,7 +176,7 @@ main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 18.75rem;
 }
 
 .covo_heading{
@@ -202,13 +202,13 @@ main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 18.75rem;
 }
 
 .users{
     
     background-color:  hsl(207, 100%, 98%);
-    padding: 1.5REM;
+    padding: 1.5rem;
 }
 
 .user_heading{
@@ -240,6 +240,10 @@ main{
     color: hsl(192, 100%, 9%);
 }
 
+.svg_desktop_footer{
+    display: none;
+}
+
 footer{
     font-family: poppins;
     font-size: 400;
@@ -262,8 +266,8 @@ footer{
 
 
 h2{
-    font-size: 50px;
-    margin: 0px;
+    font-size: 3.125rem;
+    margin: 0rem;
 }
 
 .build{
@@ -285,7 +289,6 @@ h2{
 
 .wrap{
     max-width: 100%;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     
@@ -309,7 +312,7 @@ input{
     color: white;
     border: none;
     border-radius: .30rem;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     font-family: poppins;
     font-weight: 400;
 }
@@ -317,7 +320,7 @@ input{
 
 .letter{
     font-family: poppins;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
@@ -330,37 +333,34 @@ input{
 }
 
 .num{
-    padding-right: 20px;
+    padding-right: 1.25rem;
 }
 
 
 .mailbox{
-    padding-right: 20px;
+    padding-right: 1.25rem;
 }
 
 .bg_section_bottom_destop{
     display: none;
 }
 
-.svg_desktop_footer{
-    display: none;
-}
+
 
 
 @media  (min-width:500px) {
     
     .intro{
         max-width: none;
-        font-family: poppins;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     
     .intro_def{
-        max-width: 480px;
+        max-width: 30rem;
     }
 
     .start_huddle{
-        padding: 15px 30px;
+        padding: 0.9375rem 1.875rem;
     }
 
     .screen_mockups{
@@ -386,11 +386,16 @@ input{
     }
 
     .text_growth{
-        max-width: 500px;
+        max-width: 31.25rem;
         margin-left: auto;
         display: block;
         justify-content: left;
     }
+
+    .growth_heading{
+        display: block;
+        justify-content: left;
+      }
     
     .growth_def{
         display: block;
@@ -398,10 +403,6 @@ input{
         text-align: left;
     }
 
-    .growth_heading{
-      display: block;
-      justify-content: left;
-    }
 
     .conversation{
         display: flex;
@@ -411,7 +412,7 @@ input{
     }
 
     .convo_text{
-        max-width: 500px;
+        max-width: 31.35rem;
         margin-right: auto;
         display: block;
         justify-content: left;
@@ -436,7 +437,7 @@ input{
     }
 
     .users_text{
-        max-width: 500px;
+        max-width: 31.25rem;
         margin-left: auto;
         display: block;
         justify-content: left;
@@ -478,11 +479,11 @@ input{
     }
 
     .huddle_info{
-        max-width: 500px;
+        max-width: 31.25rem;
     }
 
     .get_notification{
-        max-width: 500px;
+        max-width: 31.25rem;
     }
     
     .wrap{
@@ -492,12 +493,12 @@ input{
     }
 
     .input{
-        width: 20px;
+        width: 1.25rem;
         padding: 0px;
     }
 
     .svg_desktop_footer{
-        width: 400px;
+        width: 25rem;
     }
 
     .bg_section_bottom_destop{
