@@ -1,0 +1,509 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    line-height: 1.5rem;
+    color:  hsl(210, 33%, 76%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.icon_huddle{
+    width: 6.25rem;
+    height: 0.9375rem;
+}
+
+.header_option {
+    max-height: 2rem;
+    border-radius: 0.75rem;
+    padding: 0.25rem 0.625rem;
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+    background-color: white;
+}
+
+main{
+    margin-top: 4rem;
+}
+
+.intro{
+    max-width: 18.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-family: poppins;
+    font-size: 1.5625rem;
+}
+
+.intro_def{
+    font-family: poppins;
+    font-size: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;  
+}
+
+.start_huddle{
+    margin: 3rem 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.75rem 1.875rem;
+    background-color: hsl(322, 100%, 66%) ;
+}
+
+.screen_mockups{
+    margin-bottom: 7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 18.75rem;
+}
+
+.status{
+    font-size: x-large;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscibers_icon{
+    display: block;
+   position: absolute;
+
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.subscribers{
+   box-sizing: border-box;
+   max-width: 18.75rem;
+   
+}
+
+.number_of_subscribers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 1.25rem 0rem;
+    padding-top: 1.25rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.subscribers_messages{
+    line-height: 0.25rem;
+}
+
+.message_icon{
+    display: block;
+   position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.number_of_messages{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.growth{
+    background-color: hsl(207, 100%, 98%);
+   margin-bottom: -1rem;
+   padding: 1.5rem;
+}
+
+.grow_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 18.75rem;
+}
+
+.growth_heading{
+    color: hsl(192, 100%, 9%);
+    font-family: poppins;
+    font-size: 700;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.growth_def{
+    font-family: poppins;
+    font-size: 400;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.conversation{
+    margin-bottom: 10rem;
+}
+
+.sitted_people{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.75rem;
+}
+
+.covo_heading{
+    font-family: poppins;
+    font-size: 700;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(192, 100%, 9%);
+}
+
+.convo_def{
+    font-family: poppins;
+    font-size: 400;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.user_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.75rem;
+}
+
+.users{
+    
+    background-color:  hsl(207, 100%, 98%);
+    padding: 1.5rem;
+}
+
+.user_heading{
+    color: hsl(192, 100%, 9%);
+    font-family: poppins;
+    font-size: 700;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_def{
+    font-family: poppins;
+    font-size: 400;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.build_community{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 700;
+    font-weight: bold;
+    font-family: poppins;
+    color: hsl(192, 100%, 9%);
+}
+
+.svg_desktop_footer{
+    display: none;
+}
+
+footer{
+    font-family: poppins;
+    font-size: 400;
+    margin-top: -0.45rem;
+    background-color:  hsl(192, 100%, 9%);
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+.icon_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+h2{
+    font-size: 3.125rem;
+    margin: 0rem;
+}
+
+.build{
+    margin-bottom: 10rem;
+}
+
+.sv_manipilation_top{
+    margin-bottom: -0.40rem;
+}
+
+.sv_manipilation_bottom{
+    margin-bottom: 10rem;
+}
+
+.sv_manipilation_2{
+    margin-top: -1rem;
+    margin-bottom: 10rem;
+}
+
+.wrap{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2rem 0rem;
+}
+
+
+input{
+    width: 100%;
+    height: 2rem;
+   border-radius: 0.30rem;
+   border: none;
+}
+
+.join{
+    margin-top: 0.50rem;
+    display: block;
+    align-items: flex-end;
+    margin-left: auto;
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    border-radius: .30rem;
+    padding: 0.625rem 1.25rem;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+
+.letter{
+    font-family: poppins;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.contact_number{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    text-align: center;   
+}
+
+.num{
+    padding-right: 1.25rem;
+}
+
+
+.mailbox{
+    padding-right: 1.25rem;
+}
+
+.bg_section_bottom_destop{
+    display: none;
+}
+
+
+
+
+@media  (min-width:500px) {
+    
+    .intro{
+        max-width: none;
+        font-size: 2.5rem;
+    }
+    
+    .intro_def{
+        max-width: 30rem;
+    }
+
+    .start_huddle{
+        padding: 0.9375rem 1.875rem;
+    }
+
+    .screen_mockups{
+        max-width: 700px;
+    }
+
+    .status{
+        max-width: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    .growth{
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+     
+    }
+
+    .text_growth{
+        max-width: 31.25rem;
+        margin-left: auto;
+        display: block;
+        justify-content: left;
+    }
+
+    .growth_heading{
+        display: block;
+        justify-content: left;
+      }
+    
+    .growth_def{
+        display: block;
+        justify-content: left;
+        text-align: left;
+    }
+
+
+    .conversation{
+        display: flex;
+        flex-direction: row;
+      justify-content: space-around;
+      margin-top: 10rem;
+    }
+
+    .convo_text{
+        max-width: 31.35rem;
+        margin-right: auto;
+        display: block;
+        justify-content: left;
+    }
+
+    .covo_heading{
+        display: block;
+      justify-content: left;
+    }
+
+    .convo_def{
+        display: block;
+        justify-content: left;
+        text-align: left;
+    }
+
+    .users{
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: row-reverse;
+      justify-content: space-around;
+    }
+
+    .users_text{
+        max-width: 31.25rem;
+        margin-left: auto;
+        display: block;
+        justify-content: left;
+    }
+
+    .user_heading{
+        display: block;
+        justify-content: left;
+    }
+
+    .user_def{
+        display: block;
+        justify-content: left;
+        text-align: left;
+    }
+
+    .sv_manipilation_top{
+        display: none;
+    }
+
+
+    .sv_manipilation_bottom{
+        display: none;
+    }
+
+    .sv_manipilation_2{
+        display: none;
+    }
+
+    .svg_mobile_footer{
+        display: none;
+    }
+
+    footer{
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .huddle_info{
+        max-width: 31.25rem;
+    }
+
+    .get_notification{
+        max-width: 31.25rem;
+    }
+    
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .input{
+        width: 1.25rem;
+        padding: 0px;
+    }
+
+    .svg_desktop_footer{
+        width: 25rem;
+    }
+
+    .bg_section_bottom_destop{
+        display: block;
+        max-width: 100%;
+    }
+}
+
